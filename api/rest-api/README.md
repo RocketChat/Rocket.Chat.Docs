@@ -274,6 +274,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/roles.list` | Gets all the roles in the system. | [Link](methods/roles/list.md) |
 | `/api/v1/roles.sync` | Gets all the roles in the system which are updated after a given date. | [Link](methods/roles/sync.md) |
 | `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](methods/roles/addusertorole.md) |
+| `/api/v1/roles.removeUserFromRole` | Unassign a role from an user. | [Link](methods/roles/removeuserfromrole.md) |
 | `/api/v1/roles.getUsersInRole` | Gets the users that belongs to a role. | [Link](methods/roles/getusersinrole.md) |
 
 ### Push Token
@@ -381,4 +382,3 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Clojure
 
 * [rocketchat-clojure](https://github.com/MalloZup/missile)
-
